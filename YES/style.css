@@ -1,0 +1,53 @@
+
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conta{
+    background-color: pink;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.primero{
+    height: 150px;
+    /* background-color: red; */
+    width: 60%;
+    position: relative;
+    
+}
+.iz, .der {
+    height: 100%;
+    background-color: blue;
+    width: 100px;
+    border-radius: 50%;
+}
+.iz {
+    
+}
+.der {
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.segundo {
+    height: 100px;
+    background-color: yellow;
+    width: 10%;
+    border-radius: 150%;
+}
+.tercero {
+    height: 100px;
+    background-color: violet;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 100px;
+}
